@@ -1,0 +1,17 @@
+.header-container {
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+    gap: 10px;
+}
+
+.logo img {
+    width: 144px;
+    height: 26px;
+}

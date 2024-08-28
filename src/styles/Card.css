@@ -1,0 +1,50 @@
+.user-name,
+.user-position,
+.user-email,
+.user-phone {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+}
+
+.user-name {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.users-card {
+  text-align: center;
+  overflow: hidden;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 29px;
+}
+
+.user-card {
+  border-radius: 16px;
+  padding: 20px;
+  width: 370px;
+  height: auto;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.user-card-btn button {
+  margin-top: 50px;
+  width: 120px;
+}
+
+.circular-photo-container {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}

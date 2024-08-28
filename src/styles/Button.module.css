@@ -1,0 +1,30 @@
+.btn {
+  background-color: #F4E041;
+  color: #000;
+  border: none;
+  border-radius: 80px;
+  width: 100px;
+  height: 34px;
+  padding: 0;
+}
+
+.btn span {
+  height: 26px;
+  width: 54px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.btn:hover {
+  background-color: #FFE302;
+  color: #000;
+}
+
+.btn:disabled, 
+.btn:hover:disabled, 
+.btn.disabled, 
+.btn.disabled:hover {
+  background-color: #bdbdbd;
+  color: #ffffff;
+  cursor: not-allowed;
+}

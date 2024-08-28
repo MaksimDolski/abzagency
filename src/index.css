@@ -1,0 +1,78 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F8f8f8;
+}
+
+
+.h1-request {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+     margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.h1-main {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+@media screen and (min-width: 2560px) {
+  .header-container {
+    padding: 0 695px;
+  }
+  .intro-section {
+    height: 70vh;
+  }
+  .intro-section-content {
+  height: 50vh;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 2559px) {
+  .header-container {
+    padding: 0 60px;
+  }
+   .intro-section {
+    height: 60vh;
+  }
+  .intro-section-content {
+     height: 50vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header-container {
+    padding: 0 32px;
+  }
+    .intro-section {
+    height: 50vh;
+  }
+  .intro-section-content {
+   height: 50vh;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .header-container {
+    padding: 0 16px;
+  }
+    .intro-section {
+    height: 50vh;
+  }
+  .intro-section-content {
+    height: 50vh;
+  }
+}
